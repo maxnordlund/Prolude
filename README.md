@@ -1,0 +1,1 @@
+A freestyle port of Haskells prelude to Prolog. Made with SWI-Prolog, but should work anywhere with minor modifications.
