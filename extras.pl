@@ -19,7 +19,7 @@ chain_(M, [H|T], I, R) :-
 chain(M:L, I) :-
     chain_(M, L, I).
 chain_(M, [H|[]], I) :-
-	!,call(M:H, I).
+	call(M:H, I).
 chain_(M, [H|T], I) :-
 	call(M:H, I, R),
 	chain_(M, T, R).
